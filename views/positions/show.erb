@@ -1,0 +1,9 @@
+<%= @position %>
+
+<ul>
+  <% @players_at_position.each do |player| %>
+    <li>
+      <%= player.name %>
+    </li>
+  <% end %>
+</ul>

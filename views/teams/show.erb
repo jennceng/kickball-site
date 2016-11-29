@@ -1,0 +1,7 @@
+<ul>
+  <% @team.roster.each do |position, player| %>
+    <li>
+      <%= position %></a> : <%= player %>
+    </li>
+  <% end %>
+</ul>
